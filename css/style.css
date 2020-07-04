@@ -296,15 +296,14 @@ footer.footer-area .social a:hover > i {
 .card,
 .card-body img {
   box-shadow: 0px 0px 10px grey;
-  margin-top: 5px;
+  border-radius: 2px;
 }
 
-.card-body img {
+.card-body {
   transform: scale(1.087);
-  border-radius: 0px;
 }
 
-.card-body img:hover {
+.card-body:hover {
   transform: scale(1.15);
   transition: all 400ms ease-in-out;
   z-index: 100000000000;
